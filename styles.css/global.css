@@ -77,6 +77,14 @@ a {
     color: inherit; /*herda a cor do elemento pai*/
 }
 
+a:hover{
+    background: linear-gradient(
+        90deg,
+        var(--brand-color-secondary) 0%,
+        var(--brand-color-primary) 100%
+    );
+}
+
 ul[role="list"]{
     list-style: none;
 }

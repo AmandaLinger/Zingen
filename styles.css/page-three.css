@@ -5,6 +5,9 @@
 .subtitle-pagethree{
     color: var(--brand-color-primary);
 }
+.assinaturas-container{
+    margin-bottom: 48px;
+}
 
 .title-pagethree{
     display: flex;
@@ -132,6 +135,7 @@
         justify-content: center;
         align-items: center;
         gap: 32px;
+        margin-bottom: 80px;
     }
     .subtitle-card-top{
         width: 800px;

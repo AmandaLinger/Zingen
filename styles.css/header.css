@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-family: 'Paytone one';
+    font-size: 24px;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+.btn-header{
+    background-color: var(--text-color-primary);
+    color: var(--bg-color);
+    font-size: var(--fs-base);
+    font-family: 'Inter';
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+.header-none1,
+.header-none2,
+.header-none3{
+        display: none;
+        font-size: 16px;
+        color: var(--text-color-secondary);
+}
+
+@media (width>1000px){
+    .container-none{
+        display: flex;
+        gap: 24px;
+    }
+    .header-none1{
+        display: flex;
+    }
+    .header-none2{
+        display: flex;
+    }
+    .header-none3{
+        display: flex;
+        margin-right: 16px;
+    }
+}

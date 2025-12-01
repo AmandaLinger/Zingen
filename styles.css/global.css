@@ -13,10 +13,6 @@
     -moz-osx-font-smoothing: grayscale; /*deixa a fonte mais leve/fina*/
 }
 
-body{
-    padding: 16px 24px;
-}
-
 :root{
     --bg-color: #09090b;
     --surface-color: #18181B;

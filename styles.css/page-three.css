@@ -1,0 +1,147 @@
+.pagethree{
+    padding: 0px 24px;
+}
+
+.subtitle-pagethree{
+    color: var(--brand-color-primary);
+}
+
+.title-pagethree{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 42px 38px;
+}
+.p-subtitle-pagethree{
+    font-size: 16px;
+    color: var(--text-color-secondary);
+}
+
+.h1-card-assinatura{
+    margin-block: 24px;
+    font-size: 32px;
+}
+.assinatura-card{
+    background-color: var(--surface-color);
+    padding: 24px;
+    width: 327px;
+    height: 454px;
+    border-radius: 24px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title-card-assinatura{
+    font-size: 20px;
+}
+
+.subtitle-card-top{
+    width: 327px;
+    text-align: center;
+}
+.valor-assinatura{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.span-color{
+    color: var(--text-color-secondary);
+}
+.line-margin{
+    margin-block: 32px;
+}
+.legend-card{
+    color: var(--text-color-secondary);
+    font-size: 16px;
+}
+.gap-card{
+    gap: 8px;
+}
+#btn-width{
+    padding-inline: 50px;
+
+    display: flex;
+    align-content: center;
+}
+
+.border-card-assinatura{
+    border: 3px solid var(--brand-color-primary);
+}
+.p-card-promocional{
+    width: 156px;
+    padding:12px 32px;
+    background-color: var(--brand-color-primary);
+    border-radius: 16px 0px 24px 0px;
+    margin-bottom: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--surface-color);
+}
+
+.assinatura-card-promocional{
+    background-color: var(--surface-color);
+    width: 327px;
+    height: 502px;
+    border-radius: 24px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+}
+.top-container,
+.promocional
+{
+    padding-inline: 24px;
+}
+.line-margin-p{
+    margin-block: 32px;
+}
+.margin16{
+    margin-bottom:12px;
+}
+.size-card3{
+    font-size: 30px;
+}
+.span-card3{
+    font-size: 14px;
+}
+
+.assinatura-card3{
+    background-color: var(--surface-color);
+    padding: 24px;
+    width: 327px;
+    height: 482px;
+    border-radius: 24px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.obs-card3{
+    font-size: 14px;
+    color: var(--text-color-secondary);
+    margin-top: 24px;
+}
+
+
+
+
+@media (width>1000px) {
+    .assinaturas-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+    .subtitle-card-top{
+        width: 800px;
+    }
+    .border-card-assinatura{
+        height: 500px;
+        width: 384px;
+    }
+    .top-container,
+    .promocional{
+        padding-inline: 24px;
+    }
+}

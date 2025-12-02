@@ -126,6 +126,11 @@
     margin-top: 24px;
 }
 
+.align-container{
+    display: flex;
+    justify-content: center;
+}
+
 
 
 

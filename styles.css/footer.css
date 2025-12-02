@@ -1,5 +1,5 @@
 footer{
-    padding: 80px 32px 32px 32px;
+    padding: 48px 48px 24px 48px;
 
     display: flex;
     flex-direction: column;
@@ -80,4 +80,23 @@ footer{
 .p-credito{
     color: var(--text-color-secondary);
     font-size: 14px;
+}
+
+
+@media (width>1000px) {
+    footer{
+        padding: 80px 32px 32px 32px;
+    }
+    .footer-top{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .container-groups{
+        flex-direction: row;
+        gap: 64px;
+    }
+    .footer-bottom-container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }

@@ -1,0 +1,83 @@
+footer{
+    padding: 80px 32px 32px 32px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.footer-top{
+    display: flex;
+    gap: 48px;
+    flex-direction: column;
+}
+
+.subtitle-footer{
+    color: var(--brand-color-primary);
+    font-size: 12px;
+}
+
+.item-grup-footer{
+    color: var(--text-color-secondary);
+    font-size: 16px;
+}
+
+.footer-container-grups{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-groups{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+
+.btn-tiktok{
+    background-image: url(../assets/icons/ic_baseline-tiktok.svg);
+    height: 24px;
+    width: 24px;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-instagram{
+    background-image: url(../assets/icons/mdi_instagram.svg);
+    height: 24px;
+    width: 24px;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-x{
+    background-image: url(../assets/icons/ri_twitter-x-fill.svg);
+    height: 24px;
+    width: 24px;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-discord{
+    background-image: url(../assets/icons/ic_baseline-discord.svg);
+    height: 24px;
+    width: 24px;
+    background-color: transparent;
+    border: none;
+}
+.footer-bottom{
+    display: flex;
+    gap: 24px;
+}
+
+.footer-bottom-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.p-credito{
+    color: var(--text-color-secondary);
+    font-size: 14px;
+}

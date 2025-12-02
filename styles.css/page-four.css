@@ -43,3 +43,24 @@
     height: 341px;
     transform: translateX(120px) translateY(-345px)
 }
+
+@media (width>1000px) {
+    .img-absolute{
+        height: 627px;
+        transform: translateX(800px) translateY(-630px)
+    }
+
+    .card-download{
+        padding: 140px 80px;
+    }
+    .width-container{
+        width: 640px;
+    }
+    .buttons-download-container{
+        margin-bottom: 0px;
+    }   
+    .buttons-download-container{
+        display: flex;
+        gap: 16px;
+    }
+}
